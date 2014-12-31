@@ -8,13 +8,13 @@
 Summary:	Monitoring::Plugin - A family of Perl modules to streamline writing Monitoring plugins
 Summary(pl.UTF-8):	Monitoring::Plugin - rodzina modułów Perla ułatwiająca pisanie wtyczek Monitoringa
 Name:		perl-Monitoring-Plugin
-Version:	0.37
+Version:	0.38
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/N/NI/NIERLEIN/Monitoring-Plugin-%{version}.tar.gz
-# Source0-md5:	4112350a23a20e9159ae002b8ce6bbf3
+# Source0-md5:	a117df2aef4a690cee1335eed5ccbd37
 URL:		http://search.cpan.org/dist/Monitoring-Plugin/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
