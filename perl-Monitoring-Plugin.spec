@@ -69,6 +69,9 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -p t/*.pl $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -79,3 +82,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/Monitoring/*.pm
 %{perl_vendorlib}/Monitoring/Plugin
 %{_mandir}/man3/Monitoring::Plugin*.3pm*
+%{_examplesdir}/%{name}-%{version}
