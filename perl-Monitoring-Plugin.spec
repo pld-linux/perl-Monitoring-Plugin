@@ -4,7 +4,6 @@
 
 %define	pdir	Monitoring
 %define	pnam	Plugin
-%include	/usr/lib/rpm/macros.perl
 Summary:	Monitoring::Plugin - A family of Perl modules to streamline writing Monitoring plugins
 Summary(pl.UTF-8):	Monitoring::Plugin - rodzina modułów Perla ułatwiająca pisanie wtyczek Monitoringa
 Name:		perl-Monitoring-Plugin
